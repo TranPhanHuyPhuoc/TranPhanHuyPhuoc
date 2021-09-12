@@ -1,0 +1,15 @@
+﻿@*@model Events.web.Models.EventsViewModel*@
+@{
+    ViewBag.Title = "Home Page";
+}
+<div class="jumbotron">
+    
+    <p class="lead">Phuoc Application</p>
+    <img width="1000" src="https://megastudy.edu.vn/upload/tinymce/gr0.png" />
+</div>
+@*@Html.Partial("_Events")*@
+
+@section scripts{
+    @Scripts.Render("~/bundles/ajax")
+}
+@* Events.web: Startup.cs/EventsController.cs *@
